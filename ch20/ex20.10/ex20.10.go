@@ -22,7 +22,7 @@ func ReadFile(reader Reader) {
 }
 
 func main() {
-	// File 포인턴 인스턴스를 ReadFile() 함수의 인스로 사용합니다.
+	// File 포인턴 인스턴스를 ReadFile() 함수의 인수로 사용합니다.
 	file := &File{}
 	ReadFile(file)
 }
